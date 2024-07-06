@@ -21,8 +21,18 @@
 </table>
 <br/>
 1. Ensure that the DefaultConnection is set to your local MS SQL SERVER in the appsettings.json. "DefaultConnection": "Server=COMPUTER_NAME;Database=PizzaPlace;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True"
-<br/>
-<br/>
-2. License MIT
-<br/>
-<br/>
+<br><br>
+2. Please restore the PizzaPlace.bak to your local MS SQL SERVER machine
+<br><br>
+- Open MS SQL Server Management Studio
+<br><br>
+- Local MS SQL Server Machine name > Databases - Right Click on Databases and Click "Restore Database"
+<br><br>
+- Under Source, select "Device" and click the ellipsis button 
+<br><br>
+- Browse for the PizzaPlace.bak in the PizzaPlaceAPI > Data folder
+<br><br>
+- Click OK
+<br><br>
+License MIT
+
